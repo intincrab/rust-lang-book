@@ -1,5 +1,5 @@
 ## [rust-lang-book](https://doc.rust-lang.org/book/title-page.html)
-![]([https://github.com/Your_Repository_Name/Your_GIF_Name.gif](https://rustacean.net/more-crabby-things/animated-ferris.gif))
+![]([https://github.com/Your_Repository_Name/Your_GIF_Name.gif](https://rustacean.net/more-crabby-things/animated-ferris.gif)
 
 ### Status
 
