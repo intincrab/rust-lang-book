@@ -1,6 +1,5 @@
 ## [rust-lang-book](https://doc.rust-lang.org/book/title-page.html)
 
-<img src="[relative/path/in/repository/to/image.svg](https://rustacean.net/assets/rustacean-flat-gesture.svg)" width="128"/>
 ### Status
 
 | Part | Status |
