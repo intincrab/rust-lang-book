@@ -1,5 +1,5 @@
 ## [rust-lang-book](https://doc.rust-lang.org/book/title-page.html)
-![](https://external-preview.redd.it/4ZoHaplutRLaOfcKCJ4lWsZeXp8qxui0oRMwwedWVg4.jpg?auto=webp&s=74a4287f233983e362746d21f441cfa118aff4b8)
+<img src="[relative/path/in/repository/to/image.svg](https://rustacean.net/more-crabby-things/animated-ferris.gif)" width="128"/>
 
 ### Status
 
