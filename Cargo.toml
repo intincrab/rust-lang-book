@@ -1,0 +1,2 @@
+[workspace]
+members = ["Enums/enums1","guessing_game"]
