@@ -1,2 +1,2 @@
 [workspace]
-members = ["Enums/enums1","guessing_game","package","resturant"]
+members = ["Enums/enums1","guessing_game","package","resturant","commoncollection/vectors","commoncollection/hashmap"]

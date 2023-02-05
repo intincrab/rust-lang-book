@@ -52,6 +52,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "hashmap"
+version = "0.1.0"
+
+[[package]]
 name = "libc"
 version = "0.2.139"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -131,6 +135,10 @@ version = "0.1.0"
 dependencies = [
  "rand 0.5.6",
 ]
+
+[[package]]
+name = "vectors"
+version = "0.1.0"
 
 [[package]]
 name = "wasi"
