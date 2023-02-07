@@ -1,3 +1,5 @@
 [workspace]
 members = ["Enums/enums1","guessing_game","package","resturant","commoncollection/vectors","commoncollection/hashmap",
-"error/panic"]
+"error/panic",
+"generics/generic",
+"generics/traits"]
