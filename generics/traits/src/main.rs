@@ -1,29 +1,71 @@
-pub trait Summary {
-    fn summarize(&self) -> String;
+struct Film {
+    title:String,
+    director:String,
+    studion:String
 }
 
-pub struct NewsArticle {
-    pub headline: String,
-    pub location: String,
-    pub author: String,
-    pub content: String,
+struct  Book {
+    title:String,
+    author:String,
+    publisher:String,
 }
-
-impl Summary for NewsArticle {
-    fn summarize(&self) -> String {
-        format!("{}, by {} ({})", self.headline, self.author, self.location)
+struct Album {
+    title:String,
+    artist:String,
+    label:String
+}
+trait Catalog {
+    fn describe(&self){
+        print!("We need more info about this.")
     }
+    
 }
+impl Catalog for Album {}
 
-pub struct Tweet {
-    pub username: String,
-    pub content: String,
-    pub reply: bool,
-    pub retweet: bool,
-}
-
-impl Summary for Tweet {
-    fn summarize(&self) -> String {
-        format!("{}: {}", self.username, self.content)
+impl Catalog for Book {
+    fn describe(&self) {
+        print!(
+            "{} was written by {} and published by {}",
+            self.title,
+            self.author,
+            self.publisher
+        )
     }
+    
+}
+
+impl Catalog for Film {
+    fn describe(&self) {
+        print!(
+            "{} was directed by {} through {} studios",
+            self.title,
+            self.director,
+            self.studion
+        )
+    }
+    
+}
+
+fn main(){
+    let capt_marvel =Film {
+        title:String::from("Captain Marvel"),
+        director:String::from("Anna Boden and Ryan Fleck"),
+        studion:String::from("Marvel")
+    };
+
+    capt_marvel.describe();
+
+    let elantris =Book {
+        title:String::from("Elentris"),
+        author:String::from("Brandon Sanderson"),
+        publisher:String::from("Tor Books")
+    };
+    elantris.describe();
+
+    let let_it_be = Album {
+        title:String::from("Let it be"),
+        artist:String::from("Beatles"),
+        label:String::from("Apple")
+    };
+    let_it_be.describe();
 }
