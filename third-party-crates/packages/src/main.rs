@@ -1,5 +1,4 @@
 mod authentication;
-
 fn main() {
     let mut user = authentication::User::new("jeremy", "super-secret");
 
