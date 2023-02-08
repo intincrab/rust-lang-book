@@ -3,4 +3,5 @@ members = ["Enums/enums1","guessing_game","package","resturant","commoncollectio
 "error/panic",
 "generics/generic",
 "generics/traits",
-"third-party-crates/packages"]
+"third-party-crates/packages",
+"tests/adder"]
