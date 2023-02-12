@@ -7,4 +7,5 @@ members = ["Enums/enums1","guessing_game","package","resturant","commoncollectio
 "tests/adder",
 "project1/minigrep"
 ,"closures",
-"iterators"]
+"iterators",
+"my_crate"]
