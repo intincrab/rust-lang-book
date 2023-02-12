@@ -1,0 +1,1 @@
+C:\Users\azay\Desktop\rust\target\package\my_crate-0.1.0\target\debug\my_crate.exe: C:\Users\azay\Desktop\rust\target\package\my_crate-0.1.0\src\lib.rs C:\Users\azay\Desktop\rust\target\package\my_crate-0.1.0\src\main.rs
