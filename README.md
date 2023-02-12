@@ -1,6 +1,7 @@
 ## [rust-lang-book](https://doc.rust-lang.org/book/title-page.html)
 
 ### Status
+#Stoping after Cargo and Crates ,I will be learing fullstack dev now :( 
 
 | Part | Status |
 | ---- | ------ |
@@ -18,7 +19,7 @@
 | 11   | ✅     |
 | 12   |  ✅    |
 | 13   |  ✅     |
-| 14   |      |
+| 14   |   ✅   |
 | 15   |      |
 | 16   |      |
 | 17   |      |
